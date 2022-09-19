@@ -10,7 +10,7 @@
     <body>
         <h1 id="title">Customer Satisfaction Form</h1>
         <p id="description">Please help us improve our services by completing this survey form.</p>
-        <div>
+        <div class="surveymaindiv">
             <form action="" id="survey-form">
                 <fieldset>
                     <label for="name" id="name-label">Name
@@ -34,12 +34,24 @@
                 </fieldset>
                 <fieldset>
                     <p class="itemstried">Which of the following items did you try out?</p>
-                    <label for="French Vanilla"><input type="checkbox" name="French Vanilla" id="French Vanilla" value="French Vanilla" /> French Vanilla</label>
-                    <label for="Hazelnut"><input type="checkbox" name="Hazelnut" id="Hazelnut" value="Hazelnut" /> Hazelnut</label>
-                    <label for="Caramel Macchiato"><input type="checkbox" name="Caramel Macchiato" id="Caramel Macchiato" value="Caramel Macchiato" /> Caramel Macchiato</label>
-                    <label for="Cafe Americano"><input type="checkbox" name="Cafe Americano" id="Cafe Americano" value="Cafe Americano" /> Cafe Americano</label>
-                    <label for="Cafe Latte"><input type="checkbox" name="Cafe Latte" id="Cafe Latte" value="Cafe Latter" /> Cafe Latte</label>
-                    <label for="Brewed Coffee"><input type="checkbox" name="Brewed Coffee" id="Brewed Coffee" value="Brewed Coffee" /> Brewed Coffee</label>
+                    <div class="parent-div">
+                        <div class="column">
+                            <label for="French Vanilla"><input type="checkbox" name="French Vanilla" id="French Vanilla" value="French Vanilla" /><p class="flavor">French Vanilla</p></label>
+                            <label for="Hazelnut"><input type="checkbox" name="Hazelnut" id="Hazelnut" value="Hazelnut" /><p class="flavor">Hazelnut</p></label>
+                            <label for="Caramel Macchiato"><input type="checkbox" name="Caramel Macchiato" id="Caramel Macchiato" value="Caramel Macchiato" /><p class="flavor">Caramel Macchiato</p></label>
+                            <label for="Cafe Americano"><input type="checkbox" name="Cafe Americano" id="Cafe Americano" value="Cafe Americano" /><p class="flavor">Cafe Americano</p></label>
+                            <label for="Cafe Latte"><input type="checkbox" name="Cafe Latte" id="Cafe Latte" value="Cafe Latte" /><p class="flavor">Cafe Latte</p></label>
+                            <label for="Brewed Coffee"><input type="checkbox" name="Brewed Coffee" id="Brewed Coffee" value="Brewed Coffee" /><p class="flavor">Brewed Coffee</p></label>
+                        </div>
+                        <div class="column">
+                            <label for="Espresso"><input type="checkbox" name="Espresso" id="Espresso" value="Espresso" /><p class="flavor">Espresso</p></label>
+                            <label for="Cappuccino"><input type="checkbox" name="Cappuccino" id="Cappuccino" value="Cappuccino" /><p class="flavor">Cappuccino</p></label>
+                            <label for="Strawberry Donut"><input type="checkbox" name="Strawberry Donut" id="Strawberry Donut" value="Strawberry Donut" /><p class="flavor">Strawberry Donut</p></label>
+                            <label for="Chocolate Cookie"><input type="checkbox" name="Chocolate Cookie" id="Chocolate Cookie" value="Chocolate Cookie" /><p class="flavor">Chocolate Cookie</p></label>
+                            <label for="Cinnamon Roll"><input type="checkbox" name="Cinnamon Roll" id="Cinnamon Roll" value="Cinnamon Roll" /><p class="flavor">Cinnamon Roll</p></label>
+                            <label for="Cheesecake"><input type="checkbox" name="Cheesecake" id="Cheesecake" value="Cheesecake" /><p class="flavor">Cheesecake</p></label>
+                        </div>
+                    </div>
                     <label for="item-next" class="item-next">Which of the items do you plan to try out next?
                         <input type="text" name="item-next" id="item-next" placeholder="Enter text here" />
                     </label>

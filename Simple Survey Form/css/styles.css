@@ -15,7 +15,7 @@ body {
     height: auto;
     font-size: 16px;
 }
-div {
+.surveymaindiv {
     background-color: bisque;
     margin: auto;
     border-radius: 10px;
@@ -26,6 +26,9 @@ div {
 h1,#description {
     text-align: center;
     color: white;
+}
+#description {
+    font-style: italic;
 }
 label {
     display: block;
@@ -41,7 +44,7 @@ input[type="text"],input[type="date"],input[type="email"] {
     border: 2px solid brown;
     font-family: sans-serif;
 }
-input[type="checkbox"],input[type="radio"] {
+input[type="radio"] {
     vertical-align: middle;
 }
 textarea {
@@ -120,4 +123,22 @@ a {
 }
 a:hover {
     color:brown;
+}
+.column {
+    display: inline-block;
+    width: 47%;
+    margin-left: -35px;
+    margin-right: 35px;
+    padding: 0;
+}
+.flavor {
+    width: 45%;
+    display: inline;
+    margin: 0;
+}
+input[type="checkbox"] {
+    width: 45%;
+    display: inline;
+    margin: 0;
+    vertical-align: left;
 }
