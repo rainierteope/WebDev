@@ -1,0 +1,95 @@
+h1,h2,p {
+    text-align: center;
+}
+body {
+    background-color: bisque;
+    background-image: url(../images/coffee.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1, h2 {
+    font-family: Impact,serif;
+}
+body {
+    width: 95%;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    color: black;
+    height: auto;
+    font-size: 16px;
+}
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: bisque;
+    opacity: 90%;
+    border-radius: 10px;
+}
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.flavor,.dessert {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+.established {
+    font-style: italic;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+hr {
+    height: 2px;
+    background-color: burlywood;
+    border-color: burlywood;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+img {
+    display: block;
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* FOOTER */
+
+footer {
+    font-size: 15px;
+}
+a {
+    color:black;
+}
+a:visited {
+    color:black;
+}
+a:hover {
+    color:brown;
+}
+a:active {
+    color:brown;
+}
+.address {
+    margin-bottom: 5px;
+}
