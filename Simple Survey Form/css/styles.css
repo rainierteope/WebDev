@@ -129,13 +129,3 @@ a {
 a:hover {
     color:brown;
 }
-.column.one {
-    width: 40%;
-    display: inline-block;
-    margin: 5px;
-}
-.column.two {
-    width: 40%;
-    display: inline-block;
-    margin: 5px;
-}
